@@ -1,0 +1,78 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "About"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Meetup.com"
+url = "https://meetup.com/devops-kansas-city"
+weight = 3
+
+[[main]]
+name = "DevOpsDays KC"
+url = "https://www.devopsdays.org/kansas-city/"
+weight = 4
+
+[[main]]
+name = "Sponsor Us"
+pageRef = "/contact"
+weight = 5
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 6
+
+# [[main]]
+# weight = 4
+# name = "Pages"
+
+# [[main]]
+# parent = "Pages"
+# name = "Blog"
+# pageRef = "/blog"
+
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# pageRef = "/contact"
+
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# pageRef = "/authors"
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# pageRef = "/categories"
+
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# pageRef = "/404"
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3

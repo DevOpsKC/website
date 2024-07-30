@@ -1,0 +1,12 @@
+########################### Services #############################
+[googleAnalytics]
+    ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
+[disqus]
+    shortname = ''
+[instagram]
+    accessToken = ''
+    disableInlineCSS = false
+[rss]
+    limit = -1
+[twitter]
+    disableInlineCSS = false
