@@ -1,4 +1,4 @@
-module hugoplate.netlify.app
+module devopskc-community.netlify.app
 
 go 1.21
 
