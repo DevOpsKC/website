@@ -9,20 +9,30 @@ DevOps KC is a community for DevOps practitioners and tech enthusiasts in Kansas
 ### Setup
 
 1. Make sure you have [Hugo installed](https://gohugo.io/installation/)
-2. [Fork the repo](https://github.com/DevOpsKC/website/fork), and then clone the repo locally (ideally into a directory like `devopskc-website` so you know what's what), including the site's theme submodule:
+2. [Fork the repo](https://github.com/DevOpsKC/website/fork), and then clone the repo locally (ideally into a directory like `devopskc-website` so you know what's what) along with the theme as a submodule:
+
+***Note: the site uses the theme as a Hugo Module, and uses it on build. Using the `--recursive` flag will bring in the theme so you can easily see what's happening. Don't make any changes to the files in the theme folder though.***
 
 ```bash
 git clone --recursive <forked repo url> devopskc-website
+cd devopskc-website
 ```
 
-3. Verify you can see the site by starting the Hugo dev server:
+3. Install / Update the NPM dependencies:
 
 ```bash
-cd devopskc-website
+npm install
+```
+
+4. Verify you can see the site by starting the Hugo dev server:
+
+```bash
 hugo server
 ```
 
 4. The site should now be on http://localhost:1313
+
+***Note: to make sure you have the latest version of the theme for dev purposes, you can run the following to update the theme: `git submodule update --remote --merge`***
 
 ### File structure
 
@@ -47,6 +57,7 @@ The site is built with Hugo, and the theme is in the `/themes/hugoplate` folder 
   - `_index.md` for the site's home page content
 - Any content that doesn't need compiled, i.e. doesn't change, should go into the `static` directory.
 - The `data` folder contains data files that are used by the site.
+- The `themes` folder contains the theme files. ***DO NOT EDIT THESE FILES***
 
 For more info on Hugo's directory structure, see [Hugo's docs](https://gohugo.io/getting-started/directory-structure/).
 
