@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get Involved!"
-    link: "#Get-Involved"
+    link: "#get-involved"
 
 # Features
 features:
@@ -25,11 +25,13 @@ features:
 
   - title: "DevOpsDays KC"
     image: "/images/logo-devopsdayskc.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "DevOpsDays is a worldwide series of technical conferences covering topics of software development, IT infrastructure operations, and the intersection between them. Each event is run by volunteers from the local area.<br /><br /> DevOpsDays KC has been around since 2016, with our **[most recent conference in May 2024](https://devopsdays.org/events/2024-kansas-city/welcome/)**. See some of the data from 2024 below, and if you're interested in sponsoring DevOpsDays KC 2025, **[drop us a line](mailto:mailto:sponsors@devopsdayskc.org?subject=Interested%20in%20Sponsoring%20DevOpsDays%20KC%202025)**."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Over 200 attendees in 2024."
+      - "Over 75 local KC companies represented."
+      - "Over 50% of attendees are senior technical leaders."
+      - "Talks from 20 speakers over 2 days are **[posted on YouTube](https://youtube.com/playlist?list=PLH2p9sgqfZSdscF1NCVLuobn3To85CsYt&si=tcovmMp_NQvYbxYX)**."
+      - "Follow us on **[Twitter](https://twitter.com/devopsdayskc)** and **[LinkedIn](https://www.linkedin.com/company/devopsdayskc/)**."
     button:
       enable: true
       label: "Website"
