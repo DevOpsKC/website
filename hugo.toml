@@ -7,7 +7,10 @@ title = "The DevOps KC Community"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/Chicago"
 # post pagination
-paginate = 2 # see https://gohugo.io/extras/pagination/
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
 # post excerpt
 summaryLength = 20 # see https://gohugo.io/content-management/excerpts/
 # default language
