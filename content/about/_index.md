@@ -1,9 +1,17 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
+title: "Meet the Team!"
+meta_title: "About DevOps KC"
+description: "DevOps KC SPBLLC is a Public Benefit LLC that is dedicated to advancing, and supporting, the DevOps community in the Kansas City Metro area and beyond."
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+DevOps KC is a Public Benefit LLC that is dedicated to advancing, and supporting, the DevOps community in the Kansas City Metro area and beyond. We are a group of individuals who have been active in the Kansas City tech scene, as well as around the world, and have organized the DevOps KC Meetup and DevOpsDays KC.
+
+There are many different ways to get involved: 
+
+- You're an individual who would like to come alongside and participate in and help grow the DevOps community in the KC Metro area
+- You're a company or organization that is looking to support DevOps communities, as well as raising awareness of what you do
+- Something else....?
+
+Please [reach out](contact/)! We would love to have you partner with us.
