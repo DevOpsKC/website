@@ -1,33 +1,27 @@
-#################### default parameters ################################
+#################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "images/favicon.jpg"  # {{ partialCached "favicon" . }}
+##### site logo #####
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/logo.png"
-logo_darkmode = "images/logo.png"
-# use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width is not work with .svg file
-logo_width = "160px"
-logo_height = "32px"
-# if logo_webp set false, will not generate WEBP version of logo | default is true
-logo_webp = true
-# logo text will only show when logo is missing.
-logo_text = "DevOps KC"
-# navbar fixed to top
-navbar_fixed = true
-# theme-mode
-theme_switcher = false
-theme_default = "system" # available options [light/dark/system]
-# Main Sections
-mainSections = ["blog"]
+logo = "images/logo.png"    # {{ partial "logo.html" }}
+logo_darkmode = "images/logo-darkmode.png"
+logo_width = "160px"    # use `px` or `x` with logo_width, example: "100px".
+logo_height = "32px"    # Note: logo_width is not work with .svg file
+logo_webp = true    # if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_text = "DevOps KC" # logo text will only show when logo is missing.
+##### site misc #####
+navbar_fixed = true     # navbar fixed to top
+theme_switcher = true   # theme-mode
+theme_default = "system"    # available options [light/dark/system]
+mainSections = ["blog"]     # Main Sections
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
-# google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
+google_tag_manager = "" # example: G-XXXXXXXXXX, see https://developers.google.com/tag-manager/
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Copyright &copy; 2025. DevOps KC SPBLLC."
+copyright = "&copy; 2025 DevOps KC SPBLLC. All rights reserved.<BR>This site is powered by <a href=https://netlify.com target=_blank>Netlify.</a>"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -38,8 +32,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [navigation_button]
 enable = true
-label = "upcoming meetups"
-link = "https://www.meetup.com/devops-kansas-city/events/"
+label = "Get Involved"
+link = "contact"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -62,10 +56,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["DevOps", "DevOps KC"]
+keywords = ["DevOps", "Kansas City", "DevOps KC", "DevOps KC Meetup", "DevOps KC Community"]
 description = "The DevOps KC Community"
-author = "Jeremy Meiss"
-image = "images/og-image.png"
+author = "jeremy meiss"
+image = ""
 
 
 # site verifications

@@ -1,6 +1,15 @@
+############################# Modules - [module] ############################
+[[mounts]]
+source = 'assets'
+target = 'assets'
+[[mounts]]
+disableWatch = true
+source = 'hugo_stats.json'
+target = 'assets/notwatching/hugo_stats.json'
+
 [hugoVersion]
 extended = true
-min = "0.124.1"
+min = "0.141.0"
 
 [[imports]]
 path = "github.com/zeon-studio/hugoplate"
