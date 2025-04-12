@@ -1,6 +1,6 @@
 ---
 title: "Contact"
 meta_title: ""
-description: "this is meta description"
+description: "Let us know how we can help you get involved!"
 draft: false
 ---

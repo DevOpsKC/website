@@ -35,12 +35,12 @@
   <!-- /Banner -->
 
   <!-- Features -->
-  <!-- Updated: 2024-07-30 // Added anchor link to Get Involved-->
-  <div class="row bg-gradient" style="padding-top:1rem; padding-bottom: 1rem;">
-    <div class="col-12" style="text-align: center; vertical-align: middle;">
-      <h2 class="col-12" id="get-involved">Get Involved with DevOps KC</h2>
+    <!-- Updated: 2024-07-30 // Added anchor link to Get Involved-->
+    <div class="row bg-gradient" style="padding-top:1rem; padding-bottom: 1rem;">
+      <div class="col-12" style="text-align: center; vertical-align: middle;">
+        <h2 class="col-12" id="get-involved">Get Involved with DevOps KC</h2>
+      </div>
     </div>
-  </div>
 
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
@@ -65,7 +65,7 @@
             <ul>
               {{ range .bulletpoints }}
                 <li class="relative mb-4 pl-6">
-                  <i class="fa fa-arrow-right-from-bracket absolute left-0 top-1.5"></i>
+                  <i class="fa fa-check absolute left-0 top-1.5"></i>
                   {{ . | markdownify }}
                 </li>
               {{ end }}
@@ -105,8 +105,8 @@
                   {{ range .Params.testimonials }}
                     <div class="swiper-slide">
                       <div
-                        class="bg-theme-light dark:bg-darkmode-theme-light rounded-lg px-7 py-10">
-                        <div class="text-dark dark:text-white">
+                        class="bg-light dark:bg-darkmode-light rounded-lg px-7 py-10">
+                        <div class="text-text-dark dark:text-white">
                           <svg
                             width="33"
                             height="20"
@@ -122,14 +122,14 @@
                           {{ .content | markdownify }}
                         </blockquote>
                         <div class="mt-11 flex items-center">
-                          <div class="text-dark dark:text-white">
+                          <div class="text-text-dark dark:text-white">
                             {{ partial "image" (dict "Src" .avatar "Size" "50x50" "Class" "rounded-full" "Alt" .name) }}
                           </div>
                           <div class="ml-4">
                             <h3 class="h5 font-primary font-semibold">
                               {{ .name }}
                             </h3>
-                            <p class="text-dark dark:text-white">
+                            <p class="text-text-dark dark:text-white">
                               {{ .designation | markdownify }}
                             </p>
                           </div>
