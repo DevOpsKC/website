@@ -6,6 +6,16 @@
       "link": "https://bsky.app/profile/devopskc.com"
     },
     {
+      "name": "slack",
+      "icon": "fab fa-slack",
+      "link": "http:slack.devopskc.com"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/company/devopskc/"
+    },
+    {
       "name": "bluesky",
       "icon": "fa-brands fa-bluesky",
       "link": "https://bsky.app/profile/kansas-city.devopsdays.org"
@@ -14,16 +24,6 @@
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://www.github.com/devopskc"
-    },
-    {
-      "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/company/devopsdayskc/"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/devopsdayskc"
     }
   ]
 }

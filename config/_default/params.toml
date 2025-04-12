@@ -11,7 +11,7 @@ logo_webp = true    # if logo_webp set false, will not generate WEBP version of 
 logo_text = "DevOps KC" # logo text will only show when logo is missing.
 ##### site misc #####
 navbar_fixed = true     # navbar fixed to top
-theme_switcher = true   # theme-mode
+theme_switcher = false   # theme-mode
 theme_default = "system"    # available options [light/dark/system]
 mainSections = ["blog"]     # Main Sections
 # contact form action
